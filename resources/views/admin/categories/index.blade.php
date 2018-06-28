@@ -29,7 +29,7 @@
                                 <input type="hidden" name="_method" value="DELETE">
                                 {{csrf_field()}}
                                 <a class="btn btn-default" href="{{route('admin.category.edit', $category)}}"><i class="fa fa-edit"></i></a>
-                                <button type="submit" class="btn"><i class="fa fa-trash-o"></i></button>
+                                <button type="submit" class="btn"><i class="fa fa-trash"></i></button>
                             </form>
                         </td>
                     </tr>
